@@ -23,4 +23,10 @@ function App() {
   );
 }
 
+function HelloMessage(props) {
+  return <h1>Hello {props.name}!</h1>;
+}
+
+const element = <HelloMessage name="Runoob"/>;
+
 export default App;
